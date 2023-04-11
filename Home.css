@@ -1,0 +1,12 @@
+#navbar
+{
+    background-image: url("img.jpg");
+    height: 80px;
+}
+
+#box
+{
+    width: 400px;
+    height: 200px;
+    background-color: aqua;
+}
