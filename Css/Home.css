@@ -2,6 +2,7 @@
 {
     background-image: url("../img.jpg");
     height: 80px;
+    margin-bottom: 10px;
 }
 
 #box
@@ -9,4 +10,9 @@
     width: 400px;
     height: 200px;
     background-color: aqua;
+}
+
+#home
+{
+    float: right;
 }
