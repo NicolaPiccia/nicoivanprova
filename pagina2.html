@@ -11,9 +11,14 @@
 <body>
 ciao io sono la pagina due
 <a href="./index.html"><button> Home </button></a>
-<?php
- echo '<p>ciao questo lo scrivo in php</p> ';
-?>
-
+<form action="./funz.php" method="post" target="_blank">
+    <fieldset title="Inserisci i tuoi dati identificativi">
+        <legend><b>Sezione 1: Dati del Professore</b></legend>
+        <label>Nome e Cognome <input name="nome" type="text" size="25" value="Domenico" autofocus></label>
+        <label>Password di identificazione <input name="pass" type= "password" maxlength="10" placeholder="massimo 10 caratteri"></label>
+    </fieldset>
+    <input type="submit" value="Invia">
+    <input type="reset" value="Azzera">
+</form>
 </body>
 </html>
