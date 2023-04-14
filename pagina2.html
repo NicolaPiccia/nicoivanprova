@@ -14,14 +14,14 @@ ciao io sono la pagina due
 <form action="./funz.php" method="post" target="_blank">
     <fieldset title="Inserisci i tuoi dati identificativi">
         <legend><b>Sezione 1: Dati del Professore</b></legend>
-        <label>Nome e Cognome <input name="nome" type="text" size="25" value="Domenico" autofocus></label>
+        <label>Nome e Cognome <input name="nome" type="text" size="25"  ></label>
         <label>Password di identificazione <input name="pass" type= "password" maxlength="10" placeholder="massimo 10 caratteri"></label>
-        <br>
-        <label>Inserisci due numeri, così imparo a fare gli algoritmi su php: <input name="num1" type="text" size="10">
-            <input name="num2" type="text" size="10"></label>
+
+
     </fieldset>
-    <input type="submit" value="Invia">
-    <input type="reset" value="Azzera">
+    <input type="submit" name ="invia" value="Invia">
+    <input type="submit" name ="stampa" value="Lista">
+    <input type="submit" name ="reset" value="Reset">
 </form>
 </body>
 </html>
