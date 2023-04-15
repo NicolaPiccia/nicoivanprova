@@ -2,9 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>PaginaLogin</title>
+    <title>Login</title>
 </head>
 <body>
-Questa è la pagina di login
+<form action="./login.php" method="POST" target="_blank">
+<fieldset title="Inserisci i tuoi dati">
+    <label>Nome utente: <input type="text" name="username"></label>
+    <label>Password: <input type="password" name="pwd"></label>
+</fieldset>
+    <input type="submit" name="invia" value="Accedi">
+</form>
 </body>
 </html>

@@ -22,6 +22,12 @@ if(isset($_POST["stampa"]))
 if(isset($_POST["reset"])) {
     $_SESSION["lista"] = array();
 }
+if(isset($_POST["login"])) {
+    if(array_key_exists($_REQUEST["nome"],$_SESSION["lista"]))
+    {if($_SESSION["lista"][$_REQUEST["nome"]]==$_REQUEST["pass"]) {$_SESSION["login"]==true; echo "LOgin effettuato";}
+        else echo "<p>I dati inseriti non sono corretti</p>";}
+    else  echo "<p>I dati inseriti non sono corretti</p>";
+}
 ?>
 </body>
 </html>
